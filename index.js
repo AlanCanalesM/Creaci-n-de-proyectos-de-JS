@@ -1,0 +1,7 @@
+const MissionComander = require('./app/missionComander')
+const alan=new MissionComander("Alan")
+const arturo=new MissionComander("Arturo")
+const josefina=new MissionComander("Josefina")
+console.log(alan.name)
+console.log(arturo.name)
+console.log(josefina.name)
